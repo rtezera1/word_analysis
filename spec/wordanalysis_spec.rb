@@ -48,8 +48,7 @@ describe WordAnalysis do
   describe "letters_not_used_in_sentence" do
     it "gives the letters not used in a sentence" do
       words_used = WordAnalysis.new("mike szeth")
-      expect(words_used.letters_not_used_in_sentence).to eq(17)
-      binding.pry
+      expect(words_used.letters_not_used_in_sentence).to eq(18)
     end
   end
 end

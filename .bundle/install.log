@@ -1,0 +1,17 @@
+# Logfile created on 2014-03-15 17:02:44 -0400 by logger.rb/44203
+I, [2014-03-15T17:02:44.652045 #12876]  INFO -- : 0:  ast (1.1.0) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/ast-1.1.0.gemspec
+I, [2014-03-15T17:02:44.706082 #12876]  INFO -- : 0:  coderay (1.1.0) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2014-03-15T17:02:44.706805 #12876]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-03-15T17:02:44.707340 #12876]  INFO -- : 0:  json (1.8.1) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/default/json-1.8.1.gemspec
+I, [2014-03-15T17:02:44.707973 #12876]  INFO -- : 0:  method_source (0.8.2) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/method_source-0.8.2.gemspec
+I, [2014-03-15T17:02:44.711197 #12876]  INFO -- : 0:  slop (3.5.0) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/slop-3.5.0.gemspec
+I, [2014-03-15T17:02:44.711793 #12876]  INFO -- : 0:  parser (2.1.7) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/parser-2.1.7.gemspec
+I, [2014-03-15T17:02:44.712291 #12876]  INFO -- : 0:  powerpack (0.0.9) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/powerpack-0.0.9.gemspec
+I, [2014-03-15T17:02:44.712748 #12876]  INFO -- : 0:  pry (0.9.12.6) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/pry-0.9.12.6.gemspec
+I, [2014-03-15T17:02:44.713213 #12876]  INFO -- : 0:  rainbow (2.0.0) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/rainbow-2.0.0.gemspec
+I, [2014-03-15T17:02:44.713648 #12876]  INFO -- : 0:  rspec-core (2.14.8) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/rspec-core-2.14.8.gemspec
+I, [2014-03-15T17:02:44.714140 #12876]  INFO -- : 0:  rspec-expectations (2.14.5) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/rspec-expectations-2.14.5.gemspec
+I, [2014-03-15T17:02:44.714676 #12876]  INFO -- : 0:  rspec-mocks (2.14.6) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/rspec-mocks-2.14.6.gemspec
+I, [2014-03-15T17:02:44.715174 #12876]  INFO -- : 0:  rspec (2.14.1) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/rspec-2.14.1.gemspec
+I, [2014-03-15T17:02:44.715670 #12876]  INFO -- : 0:  rubocop (0.18.1) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/rubocop-0.18.1.gemspec
+I, [2014-03-15T17:02:44.716134 #12876]  INFO -- : 0:  bundler (1.5.1) from /Users/robeltezera/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec

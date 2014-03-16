@@ -53,25 +53,27 @@ class WordAnalysis
     @words = @sentence.split()
     @words_hash = @words.inject (Hash.new(0)) { |word,frequency| word[frequency] +=1; word}
     @used_once_words = @words_hash.select { |word, frequency| frequency < 2}
-      @used_once_words. each do |word, frequency|
-        frequency+=1
-        return frequency
-      end
+
+     @total = 0
+    @used_once_words.each do |word, frequency|
+      @total +=frequency
+    end
+    @total
   end
 
   def letters_not_used_in_sentence
     @letters = @sentence.split(%r{\s*})
     @alphabet = ("a".."z").to_a
 
-    @not_included_letters = []
+    # @not_included_letters = []
     @letters.each do |letter|
       @alphabet.each do |one_letter|
-        if letter != one_letter
-          @not_included_letters<<one_letter
+        if letter == one_letter
+          @alphabet.delete(one_letter)
         end
       end
     end
-    @not_included_letters
+    @alphabet.length
   end
 end
 
