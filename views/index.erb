@@ -20,6 +20,13 @@
 
           <p>Top Three Common Letters</p>
         <li><%= sentence.top_three_common_letters %></li>
+
+         <p>Words Used Only Once</p>
+        <li><%= sentence.number_of_words_only_used_once %></li>
+
+         <p>Letters Not Used in Sentence</p>
+        <li><%= sentence.letters_not_used_in_sentence %></li>
+
       <li><% end %></li>
     </ul>
     <a href = "http://localhost:9393/new-sentence">Make a new entry</a>

@@ -51,4 +51,18 @@ describe WordAnalysis do
       expect(words_used.letters_not_used_in_sentence).to eq(18)
     end
   end
+
+    describe "number_of_each_word" do
+      it "gives the number of times each word used in a sentence" do
+        words_used = WordAnalysis.new("mike mike szeth is the more the marier szeth")
+        expect(words_used.number_of_each_word). to eq("mike" => 2, "szeth" => 2, "is"=> 1, "the"=> 2, "more"=>1, "marier"=>1)
+      end
+    end
+
+    describe "number_of_each_letter" do
+      it "gives the number of times each letter used in a sentence" do
+        sentence_used = WordAnalysis.new("mike mike szeth")
+        expect(sentence_used.number_of_each_letter). to eq("m"=>2, "i"=>2, "k"=>2,"e"=>3, "s"=>1,"z"=>1,"t"=>1,"h"=>1)
+      end
+    end
 end

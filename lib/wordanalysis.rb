@@ -65,7 +65,6 @@ class WordAnalysis
     @letters = @sentence.split(%r{\s*})
     @alphabet = ("a".."z").to_a
 
-    # @not_included_letters = []
     @letters.each do |letter|
       @alphabet.each do |one_letter|
         if letter == one_letter
@@ -74,6 +73,16 @@ class WordAnalysis
       end
     end
     @alphabet.length
+  end
+
+  def number_of_each_word
+     @array_of_words_to_count = @sentence.split()
+     @words_hash_to_count = @array_of_words_to_count.inject (Hash.new(0)) { |word,frequency| word[frequency] +=1; word}
+  end
+
+  def number_of_each_letter
+     @array_of_letters_to_count = @sentence.split(%r{\s*})
+     @letters_hash_to_count = @array_of_letters_to_count.inject (Hash.new(0)) { |word,frequency| word[frequency] +=1; word}
   end
 end
 

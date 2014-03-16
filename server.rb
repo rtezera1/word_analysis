@@ -10,6 +10,7 @@ get '/' do
  @sentences_to_be_displayed = []
  CSV.foreach("sentences.csv") do |sentence|
    @sentences_to_be_displayed << WordAnalysis.new(sentence[0])
+
  end
  erb :index
 end
