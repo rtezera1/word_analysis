@@ -7,8 +7,8 @@ class WordAnalysis
     @sentence = sentence
   end
 
-  def number_of_words
-    words_only = []
+  def number_of_words                 # miss understood the question but I redid it in the bottom
+    words_only = []                   # didn't want to delete it since it is practice
     array_of_words = @sentence.split
     array_of_words.each do |word|
       if word.length > 1
@@ -18,8 +18,8 @@ class WordAnalysis
     words_only.length
   end
 
-  def number_of_letters
-    @array_of_letters = @sentence.split(%r{\s*})
+  def number_of_letters                             # miss understood the question but I redid it in the bottom
+    @array_of_letters = @sentence.split(%r{\s*})    # didn't want to delete it since it is practice
     @array_of_letters.length
   end
 
@@ -27,8 +27,19 @@ class WordAnalysis
     @sentence.count '-!$%^&*()?_+|@'
   end
 
+  def number_of_each_symbol
+    @array_of_symbols = @sentence.split(%r{[\w\s]})
+    @array_of_symbols.delete("")
+    @symbols_hash = {}
+    @array_of_symbols.each do |symbol|
+      @symbols_hash[symbol] = symbol.length
+    end
+    @symbols_hash
+    # @symbols = @array_of_symbols.inject (Hash.new(0)) { |symbol, frequency| symbol[frequency] += 1; symbol }
+  end
+
   def top_three_common_words
-    @array_of_repreated_words = @sentence. split
+    @array_of_repreated_words = @sentence.split
     @hash_of_words_and_frequency = @array_of_repreated_words.inject (Hash.new(0)) { |word, frequency| word[frequency] += 1; word }
     @sorted_hash = @hash_of_words_and_frequency.sort_by {|word, frequency| frequency}
     @sorted_three_hash = {}

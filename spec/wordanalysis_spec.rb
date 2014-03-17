@@ -23,6 +23,13 @@ describe WordAnalysis do
     end
   end
 
+  describe 'number_of_each_symbols' do
+    it 'counts the number of each symbol within a sentence or paragraph' do
+      sentence_with_symbols = WordAnalysis.new("@steve, you're funny!!!! or are you???")
+      expect(sentence_with_symbols.number_of_each_symbol).to eq('@' => 1, ',' => 1, "'" => 1,  '!!!!' => 4, '???' => 3)
+    end
+  end
+
   describe 'top_three_common_words' do
     it 'selects the top three words within a sentence' do
       setence_with_repetetive_words = WordAnalysis.new('is mike really the real mike or is he fake mike is the mike')
